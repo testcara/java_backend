@@ -86,3 +86,5 @@ Node.JS/MongoDB
 总而言之，有两种应用，本机应用和混合应用
 本机应用是基于操作系统原生出来的。例如，我是一个安卓开发工程师，所以我使用JAVA， XML或者KOTLIN等实现原生应用。
 一个混合应用是在平台上编译。
+
+另外一篇关于[Roadmap](https://medium.com/better-programming/how-to-be-a-web-developer-in-7-steps-d0026719732a)的文章，请参考
