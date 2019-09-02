@@ -1,51 +1,88 @@
-# 后端开发入门介绍
+# Roadmap for web 开发
 
-## 什么是后端开发
-一个应用或者一个web服务通常有两部分：前端和后端。他们所承担的角色和他们的名字基本一致。前端就是你看到的部分。这一部分让你和你的app和服务进行交互。颜色，动画，布局和其他增加你体验的比较酷的东西都是前端。通常前端还被成为UI。
-后端是你不能看到的部分。是这个应用内部的工作机制，包括服务器和数据库等。
-拿”博客“举例，你阅读博客中的一篇文章。字体，颜色及设计等组成了这个界面的前端。然而，这个网页和这个文章的内荣是服务器从数据库中获取数据得到的，这就是应用的后端。
+## 程序员的工具集合
+或许，当前你只是一个编程或者开发新手，你需要知道先做什么，如何做。
+在我们开始之前，以下一些工具可以让你的网站开发变得容易许多
+- 一个笔记本电脑
+- 一个好的浏览器，例如chrome
+- 一个文档编辑器，例如Atom, VS Code, Sublime Text, Notepad++或者其他IDE
+- FTP/SSH工具（Filezilla, Putty, gFTP）等
+- 云存储，例如Dropbox, Google Drive等
+## 开始编码
+当你已经有了工具集，你就可以开始编程了。
+- HTML5（Tags, Attributes, Links, Images, Tables, Layouts）
+- CSS3 (css, selectors, declaration, property and values等)
+学习了HTML5和CSS3，你就可以让你编写静态网页。
+- 基础设计软件（Photoshop, Illustrator, GIMP）
+- Basic Javascript(Datatypes, Functions, Conditionals, Loops, Operators等)
+- 事件驱动
+- JSON
+- jQuery(等你对JS比较熟悉之后，再进行学习)
+## 部署应用
+当你掌握HTML， CSS和Javascript, 你就可以开始制作简单的网站了。你也会使用基本的设计软件，则你可以让你的前端更美观。现在你就是一个网站设计者了。
+再往下一步之前，你还需要掌握以下知识：
+- GIT
+- SSH
+- Basic Terminal Usage
+- 获取一个可分享的host帐号（Hostgator, InMoton, webhost等）
+- 控制面板的基础知识（例如Email, FTP配置等）
+- 通过FTP上传你的项目
+- 注册域名并和你的主机帐号关联
 
-## 后端开发工程师做什么
-后端开发工程师做的事情包括：
-- 编写服务器端代码
-- 编写代码和数据库进行交互
-- 保证服务端代码的安全和健壮
-- 保证服务器端代码能很好的处理大数量和请求
-- 在线部署应用，使得用户可以很好的使用你的服务
+## 决定职业发展方向
+继续深入前端或者开始转后端开发。
 
-在一个项目中，后端工程师还需要和其他各种工程师一起工作。因为去完成一个应用所需的技能，不局限于后端开发。
+从以下选项中，选择你所感兴趣的：
+- 前端HTML/CSS 框架（Bootstrap, Foundation, Bulma, Materialize等）
+- 服务器端编程（PHP， Ruby, Django, NodeJS等）
+- Javascript前后端框架（React, Angular等）
+- 数据库（MySQL, PostgresSQL, Hadoop, Mongo等）
 
-## 知识前提
-在你开始钻研后端工程师用到的框架，语言和技术之前，以下东西是你需要搞清楚的。
-首先也是最重要的，理解你的服务器是哪种服务器。
-其次，理解什么是数据库以及什么哪几种数据库。
-第三，对HTTP要有一个基础的理解。服务器端和客户端的通信是基于某种规则或者协议的，所以你需要了解这个协议是如何工作的。
-第四，理解什么是应用程序接口（API：Application Programming Interface）。再者，理解REST API和SOAP API的不同。
+如果你选择前端，你可以学习以下框架：
+- Bottstrap
+- MaterializeCSS
+- Zurb foundation
+- Skeleton
+- MUI
+- Pure
 
-这些知识，你可以通过Google search入手。对任一个主题，读一些文章或者看一些视频。每个人学习的方法都不太相同。找到那个对你最有用的。
+如果你选择后端，你可以学习一些服务器端编程语言：
+- PHP
+- Node.JS
+- Ruby on Rails
+- Python
 
-还有一点比较重要的是，如果你没有一点前端开发经验的话，你最好不要直接去尝试后端开发。我建议在一头扎进后端的世界之前还是了解下一些前端的知识，例如HTML， CSS和JavaScript。
+数据库也是你必须学习的：
+- 关系型数据库（Mysql, PostgreSQL）
+- NoSQL数据库（MongoDB, CouchDB)
 
-## 技术和语言
-选择一门语言和框架来进行后端开发的学习。
-后端技术的经典集合（技术栈）被成为LAMP，其是Linux(operation system), Apache(server), MySQL(database), PHP(server-side language)的缩写。
-然后呢，越来越多先进的后端技术在快速替换LAMP和其他传统的方式。
-现在让我们来学习以下当前最流行两种语言Python和Javascript写的一些框架：
-- Flask是基于Python一中后端开发框架，最流行的Python框架是Django。
-- NodeJS是基于Javascript的。NodeJS革命性的使这个客户端语言Javascript应用到后端。
-NodeJS是Javascript服务器端的框架。我推荐NodeJS的一个原因是，Javascript可同时应用于前端和后端，也就是说你可以用Javascript去构建整个应用。
-下一步，学习数据库，如果你使用的是NodeJS, 那数据库可选择MongoDB。
+你可以选择一组去学习：
+PHP/Mysql
+Node.JS/MongoDB
 
-一旦你决定了你要选用的数据库和框架，则以下一些工具可以提升你作为一个开发工程师的体验：
-- Git and GitHub
-- 使用database-as-a-service平台（例如 Mlab for MongoDB）
-- 使用server-as-a-service平台（例如 Heroku, Digital Ocean, Amazon Web Services）
+后端技术升级
+学习时下流行的一些框架：
+- Angular
+- React
+- Apollo Client
+- Vue.JS
+- Express/Sails
+如果你用PHP编程，学习
+- MVC
+- Routing
+- Database Mining
+- Helper
+- Data Binding等
 
-## 实践和练习
-现在你对如何学习已经有了简单的概念。关于学习，有许多比较流行的博客，微博，手册，视频和课程等你可以使用。
-选择你认为对你来说最有用的方式。
-从最小的项目开始去逐步开始学习，从实践中去领会理论。
-去阅读别人的代码，去学习别人不同的解决问题的技术和方案。
-当你具备了后端开发的基础知识且已经着手做一些项目的以后，你还可以学一些前端的知识，成为一个全斩工程师。
-等你学了这些之后，你可以考虑学习像Ionic的这种框架，去使用HTML， CSS和Javascript是编译跨平台的应用。简单的说，你的代码可直接应用在手机上。
+## 周边技术
+无论是前端还是后端，如果你想成为一个更专业的工程师，则你需要以下这些工具：
+- GIT
+- SSH & Basic Command Line
+- CSS Precompilers - SASS/LESS
+- APIs/REST Services
+- HTTPS/SSL
 
+## 移动应用开发
+总而言之，有两种应用，本机应用和混合应用
+本机应用是基于操作系统原生出来的。例如，我是一个安卓开发工程师，所以我使用JAVA， XML或者KOTLIN等实现原生应用。
+一个混合应用是在平台上编译。
